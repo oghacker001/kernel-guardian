@@ -1,0 +1,42 @@
+# Private signing keys
+*.priv
+*.pem
+*.key
+MOK.priv
+keys/MOK.priv
+kernel/MOK.priv
+
+# Generated kernel build files
+kernel/*.o
+kernel/*.ko
+kernel/*.mod
+kernel/*.mod.c
+kernel/.*.cmd
+kernel/modules.order
+kernel/Module.symvers
+
+# Runtime logs and generated data
+*.log
+*.jsonl
+
+# Backups
+backups/
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Backup source files
+*.bak
+
+# Compiled executables
+guardian_dashboard
+guardian_fim
+guardian_network
+guardian_risk
+kernel_guardian
